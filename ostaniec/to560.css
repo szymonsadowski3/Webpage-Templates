@@ -1,0 +1,39 @@
+h1 {
+    font-size: 3.3rem;
+}
+
+nav{
+    height: 240px;
+}
+
+nav ul{
+    width: 100%;
+}
+
+nav ul li{
+    width: 100%;
+    position: static;
+}
+
+.pic {
+    display: none;
+}
+
+.art-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tiles {
+    width: 100%;
+    
+}
+
+.beer {
+    width: 100%;
+}
+
+.speech-bubble {
+    width: 100%;
+}
+
