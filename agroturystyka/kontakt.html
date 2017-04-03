@@ -1,0 +1,310 @@
+<!-- saved from url=(0017)http://localhost/ -->
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title></title>
+	
+	<meta name="description" content="Opis w Google" />
+	<meta name="keywords" content="słowa, kluczowe, wypisane, po, porzecinku" />
+	
+	<!--fonts-->
+	
+	<link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	<!--END_of_fonts-->
+	
+	<!--css-->
+	
+	<link rel="stylesheet" href="style.css" />
+	
+	<link rel="stylesheet" href="fontello/css/fontello.css" />
+	
+	<style>
+        .icon-group:before, .icon-book-open:before, .icon-phone:before, .icon-picture:before, .icon-home-outline:before {
+			font-size:180px;
+			padding-top:30px;
+		}
+        
+		article .icon-home:before, article .icon-phone-circled:before, article .icon-mobile:before, article .icon-mail:before {
+			font-size:90px;
+		}
+		
+		p {
+			font-size:16px;
+			line-height:150%;
+		}
+        
+        article {
+            background:#213452;
+            border-top: 4px solid #09112A;
+            border-bottom: 4px solid #09112A;
+            font-size: 30px;
+        }
+		
+		.contact-rectangle {
+            padding: 10px 0;
+			margin: 0 auto;
+			text-align: center;
+			width: 800px;
+            background: rgba(191, 193, 212, 0.2);
+            border-radius: 15px;
+		}
+        
+        .container-960 {
+            width: 960px;
+            margin: 0 auto;
+            padding: 30px 0 60px 0;
+        }
+        
+        .container-960>div {
+            margin-top: 40px;
+        }
+        
+        article p {
+            margin: 0;
+        }
+	</style>
+	
+	<!--END_of_css-->
+	
+	<!--qtip_css-->
+	
+	<link rel="stylesheet" href="jquery.qtip.custom/jquery.qtip.min.css" />
+	
+	<!--END_of_qtip_css-->
+	
+	<!--javascript-->
+	
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+	<script src="scripts.js"></script>
+	
+	<!--END_of_javascript-->
+	
+	<!--tooltip-->
+	
+	<script src="jquery.qtip.custom/jquery.qtip.js"></script>
+	
+	<script>
+	
+		$(document).ready(function(){
+			
+			$('.home-tile').qtip({ // Grab some elements to apply the tooltip to
+				
+				content: {
+				text: '<p>Kliknij, aby wrócić na stronę początkową.</p>'
+				},
+				
+				position: {
+					my: 'bottom right',  // Position my top left...
+					at: 'top right', // at the bottom right of...
+					viewport: $(window),
+					target: this // my target
+				},
+				
+				hide: {
+					delay: 100
+				}
+			
+			});
+			
+			$('.about-us-tile').qtip({ // Grab some elements to apply the tooltip to
+				
+				content: {
+				text: '<p>Kim jesteśmy?</p><p>Kliknij, aby dowiedzieć się o nas nieco więcej!</p>'
+				},
+				
+				position: {
+					my: 'bottom right',  // Position my top left...
+					at: 'top right', // at the bottom right of...
+					viewport: $(window),
+					target: this // my target
+				},
+				
+				hide: {
+					delay: 100
+				}
+			
+			});
+			
+			$('.offer-tile').qtip({ // Grab some elements to apply the tooltip to
+				
+				content: {
+				text: "<p>Atrakcyjna oferta, między innymi...</p><p>Kliknij, aby dowiedzieć się więcej!</p>"
+				},
+				
+				position: {
+					my: 'bottom right',  // Position my top left...
+					at: 'top right', // at the bottom right of...
+					viewport: $(window),
+					target: this // my target
+				},
+				
+				hide: {
+					delay: 100
+				}
+			
+			});
+			
+			$('.contact-tile').qtip({ // Grab some elements to apply the tooltip to
+				
+				content: {
+				text: "<p>Skontaktuj się z nami już dzisiaj!</p>"
+				},
+				
+				position: {
+					my: 'bottom right',  // Position my top left...
+					at: 'top right', // at the bottom right of...
+					viewport: $(window),
+					target: this // my target
+				},
+				
+				hide: {
+					delay: 100
+				}
+			
+			});
+			
+			$('.gallery-tile').qtip({ // Grab some elements to apply the tooltip to
+				
+				content: {
+				text: "<p>Na własne oczy przekonaj się<br /> o atrakcyjności naszej placówki!</p>"
+				},
+				
+				position: {
+					my: 'bottom right',  // Position my top left...
+					at: 'top right', // at the bottom right of...
+					viewport: $(window),
+					target: this // my target
+				},
+				
+				hide: {
+					delay: 100
+				}
+			
+			});
+			
+		});
+	
+	</script>
+	
+	<!--END_of_tooltip-->
+	
+</head>
+
+<body>
+	
+	<div id="wrapper">
+		
+		<header>
+			
+			<div class="top-photo">
+				<a href="#">	<img src="oak2.png" />	</a>
+			</div>
+			
+			<div class="top-text">
+				Kontakt z agroturystyką <span class="text-color">"Pod Dębem"</span>
+			</div>
+			
+		</header>
+		
+		<article>
+		    <div class="container-960">
+		          
+		          
+		          <div class="contact-rectangle">
+		              <i class="icon-phone-circled"></i>18 4446341
+		          </div>
+		          
+		          <div class="contact-rectangle">
+		              <i class="icon-mobile"></i>501 610 353
+		          </div>
+		          
+		          <div class="contact-rectangle">
+		              <i class="icon-mail"></i>krystynagalysa@op.pl
+		          </div>
+		          
+		          <div class="contact-rectangle">
+		              <i class="icon-home"></i>Zabrzeż 34
+		          </div>
+		          
+		          
+            </div>
+		</article>
+		
+		<nav>
+		
+			<div class="container-1000">
+			
+				<a href="STRONA.html">
+					<div class="home-tile">
+						
+						<i class="icon-home-outline"></i>
+						<br />
+						Strona główna
+						
+					</div>
+				</a>
+			
+				<a href="o_nas.html">
+					<div class="about-us-tile">
+						
+						<i class="icon-group"></i>
+						<br />
+						O nas
+						
+					</div>
+				</a>
+				
+				<a href="oferta.html">
+					<div class="offer-tile">
+						
+						<i class="icon-book-open"></i>
+						<br />
+						
+						Oferta
+						
+					</div>
+				</a>
+				
+				<div class="clearfix"></div>
+				
+				<a href="#">
+					<div class="contact-tile">
+						
+						<i class="icon-phone"></i>
+						<br />
+						
+						Kontakt
+						
+					</div>
+				</a>
+				
+				<a href="galeria.html">
+					<div class="gallery-tile">
+						
+						<i class="icon-picture"></i>
+						<br />
+						
+						Galeria
+						
+					</div>
+				</a>
+				
+				<div class="clearfix"></div>
+				
+			</div>
+		
+		</nav>
+		
+		<footer>
+			&copy; elisi8122 2015
+		</footer>
+		
+	</div>
+	
+</body>
+</html>

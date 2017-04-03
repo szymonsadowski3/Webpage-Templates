@@ -1,0 +1,274 @@
+a, a:link, a:visited, a:active {
+	color:#FFF;
+	text-decoration:none;
+}
+
+body {
+	padding:0;
+	margin:0;
+	
+	/*background:#424342;*/
+	background:#424342;
+	color:#fff;
+	font-family:sans-serif;
+	font-size:18px;
+	font-family: 'Lato', sans-serif;
+}
+
+.top-photo > a {
+	display:block;
+	margin:0 auto;
+	width:400px;
+	height:250px;
+}
+
+.top-photo > a > img {
+	
+}
+
+.top-text {
+	font-size:72px;
+	text-align:center;
+	
+	white-space:nowrap;
+	
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-color {
+	color:#B0CAA7;
+}
+
+header{
+	padding:30px;
+	background:#123957;
+}
+
+#slider {
+	height:230px;
+	background:#213452;
+	border-top: solid 4px #09112A;
+	border-bottom: solid 4px #09112A;
+}
+
+#clock {
+	height:150px;
+	line-height:150px;
+	text-align:center;
+	font-size:72px;
+}
+
+#phone-number {
+	height:150px;
+	line-height:150px;
+	text-align:center;
+	font-size:72px;
+}
+
+#cell-number {
+	height:150px;
+	line-height:150px;
+	text-align:center;
+	font-size:72px;
+}
+
+#mail-address {
+	height:150px;
+	line-height:150px;
+	text-align:center;
+	font-size:72px;
+}
+
+
+#address {
+	height:150px;
+	line-height:150px;
+	text-align:center;
+	font-size:72px;
+}
+
+nav {
+	background:#1A223B;
+}
+
+.container-1000 {
+	width:1000px;
+	height:1000px;
+	margin:0 auto;
+	padding:50px 0;
+}
+
+.home-tile {
+	clear:both;
+	width:960px;
+	height:285px;
+	margin:20px;
+	
+	background:rgba(199,119,47,0.5);
+	
+	text-align:center;
+	
+	font-size:32px;
+	
+	transition:0.5s ease;
+}
+
+.home-tile:hover {
+	background:rgba(199,119,47,0.8);
+	cursor:pointer;
+}
+
+.about-us-tile {
+	float:left;
+	width:460px;
+	height:285px;
+	margin:20px;
+	
+	background:#3E4147;
+	
+	text-align:center;
+	
+	font-size:32px;
+	
+	transition:0.5s ease;
+}
+
+.about-us-tile:hover {
+	background:#2D3036;
+	cursor:pointer;
+}
+
+.offer-tile {
+	float:left;
+	width:460px;
+	height:285px;
+	margin:20px;
+	
+	background:#5A2E2E;
+	
+	text-align:center;
+	
+	font-size:32px;
+	
+	transition:0.5s ease;
+}
+
+.offer-tile:hover {
+	background:#491D1D;
+	cursor:pointer;
+}
+
+.contact-tile {
+	float:left;
+	width:460px;
+	height:285px;
+	margin:20px;
+	
+	background:#2A2C31;
+	
+	text-align:center;
+	
+	font-size:32px;
+	
+	transition:0.5s ease;
+}
+
+.contact-tile:hover {
+	background:#191B20;
+	cursor:pointer;
+}
+
+.gallery-tile {
+	float:left;
+	width:460px;
+	height:285px;
+	margin:20px;
+	
+	background:#474747;
+	
+	text-align:center;
+	
+	font-size:32px;
+	
+	transition:0.5s ease;
+}
+
+.gallery-tile:hover {
+	background:#363636;
+	cursor:pointer;
+}
+
+.clearfix {
+	clear:both;
+}
+
+section {
+	background:#213452;
+	height:100px;
+	padding: 30px 0 60px 0;
+	overflow-y:hidden;
+}
+
+footer {
+	background:#111626;
+	padding:10px;
+	text-align:center;
+}
+
+footer:hover {
+	cursor:pointer;
+}
+
+.ribbon {
+	 font-size: 16px !important;
+	 /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+	 width: 50%;
+		
+	 position: relative;
+	 background:rgba(17,22,31,0.8);
+	 color: #fff;
+	 text-align: center;
+	 padding: 1em 2em; /* Adjust to suit */
+	 margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+	 content: "";
+	 position: absolute;
+	 display: block;
+	 bottom: -1em;
+	 border: 1.5em solid rgba(17,22,31,0.8);
+	 z-index: -1;
+}
+.ribbon:before {
+	 left: -2em;
+	 border-right-width: 1.5em;
+	 border-left-color: transparent;
+}
+.ribbon:after {
+	 right: -2em;
+	 border-left-width: 1.5em;
+	 border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+	 content: "";
+	 position: absolute;
+	 display: block;
+	 border-style: solid;
+	 border-color: rgba(17,22,31,0.8) transparent transparent transparent;
+	 bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+	 left: 0;
+	 border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+	 right: 0;
+	 border-width: 1em 1em 0 0;
+}
+
+.non-semantic-protector { position: relative; z-index: 1; }
+
+.photo {
+	text-align: center;
+}
