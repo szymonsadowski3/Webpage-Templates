@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+    <script type="text/javascript" src="css/modernizr.custom.47289.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usługi budowlane</title>
+    
+    <!--css -->
+    
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Lato|Raleway&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="css/init.css">
+    
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    
+    <link rel="stylesheet" href="owl.carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl.carousel/owl-carousel/owl.theme.css">
+    
+    <style type="text/css" rel="stylesheet">
+        
+        body{
+            overflow-y: scroll;
+        }
+        
+        article{
+            margin: 50px 0 0 0;
+        }
+        
+        .head > h2 {
+            font-size: 4.8em;
+            text-align: center;
+        }
+        
+        #owl{
+            margin: 30px 0;
+        }
+        
+        .owl-slides img{
+            
+        }
+        
+    </style>
+    
+    <!-- -->
+    
+    <!--js -->
+    
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    
+    <script src="owl.carousel/owl-carousel/owl.carousel.js"></script>
+    
+    <script src="main.js"></script>
+    
+    <script type="text/javascript">      
+
+    $(document).ready(function() {
+     
+      $("#owl").owlCarousel({
+     
+          navigationText: 	["poprzedni","następny"],
+		  navigation : true, // Show next and prev buttons
+          slideSpeed : 600,
+          paginationSpeed : 400,
+          singleItem:true,
+		  autoPlay:4000
+     
+      });
+     
+    });
+
+    </script>
+    
+    <!-- -->
+    
+</head>
+<body>
+    
+    <header>
+        <img src="excavator.png" alt="excavator">
+        <h1>Usługi budowlane</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li class="red"><a href="index.html">Strona główna</a></li>
+            <li class="orange"><a href="kontakt.html">Kontakt</a></li>
+            <li class="green"><a href="galeria.html">Galeria</a></li>
+            <li class="blue"><a href="oferta.html">Oferta</a></li>
+        </ul>
+    </nav>
+    
+    <div class="sticky-fix"></div>
+    
+    <div class="clearfix"></div>
+    
+    <article>
+        <img src="hrf.png" class="pic" alt="">
+               
+            <div class="head">
+                <h2>Galeria</h2>
+            </div>
+                
+        <img src="hrf.png" class="pic" alt="">
+        
+        <section>
+        
+            <div id="owl" class="owl">
+                <div class="owl-slides">
+                    <img src="img/Chrysanthemum.jpg" alt="">
+                </div>
+                    
+                <div class="owl-slides">
+                    <img src="img/Desert.jpg" alt="">
+                </div>
+            </div>
+        
+        </section>
+        
+    </article>
+    
+    <footer>
+    
+        <p>&copy; FeatherDesign 2015 | Usługi budowlane</p>
+        <p class="attribution"><a href="http://www.freepik.com/free-photos-vectors/construction">Construction vector designed by Freepik</a></p>
+    
+    </footer>
+    
+</body>
+</html>

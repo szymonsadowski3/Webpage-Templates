@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+    <script type="text/javascript" src="css/modernizr.custom.47289.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usługi budowlane</title>
+    
+    <!--css -->
+    
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans%7CLato%7CRaleway&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="css/init.css">
+    
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    
+    <link rel="stylesheet" href="owl.carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl.carousel/owl-carousel/owl.theme.css">
+    
+    <style>
+        
+        article{
+            margin: 50px 0 0 0;
+        }
+
+        .owl-slides{
+            text-align: center;
+            font-size: 5.8em;
+        }
+
+        .icons{
+            margin: 50px auto;
+            width: 690px;
+            text-align: center;
+            font-size: 1.8em;
+            perspective: 400;
+        }
+
+        .holderOne, .holderTwo, .holderThree{
+            float: left;
+            margin: 0 40px;
+        }
+
+        .professional{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background: #181818;
+            line-height: 200px;
+            margin-bottom: 20px;
+        }
+
+        .speed{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background: #303030;
+            line-height: 200px;
+            margin-bottom: 20px;
+        }
+
+        .crew{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%; 
+            background: #262626;
+            line-height: 200px;
+            margin-bottom: 20px;
+        }
+
+        .professional, .speed, .crew{
+            transition: all 1s ease;
+            transform-style: preserve-3d;
+        }
+
+        .professional:hover, .speed:hover, .crew:hover{
+            cursor:pointer;
+            transform: rotateY(180deg); 
+        }
+
+        .icon-gauge:before, .icon-cog-alt:before, .icon-users:before{
+            font-size: 5em;
+        }
+
+        .description{
+            background: #3E3D46;
+        }
+
+        .container960{
+            width: 960px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+        
+        .container960 > p{
+            font-size: 2em;
+            text-indent: 6em;
+        }
+        
+    </style>
+    
+    <!-- -->
+    
+    <!--js -->
+    
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    
+    <script src="owl.carousel/owl-carousel/owl.carousel.js"></script>
+    
+    <script src="main.js"></script>
+    
+    <script type="text/javascript">      
+
+    $(document).ready(function() {
+     
+      $("#owl").owlCarousel({
+     
+          navigationText: 	["poprzedni","następny."],
+		  navigation : true, // Show next and prev buttons
+          slideSpeed : 600,
+          paginationSpeed : 400,
+          singleItem:true,
+		  autoPlay:4000
+     
+      });
+     
+    });
+
+    </script>
+    
+    <!-- -->
+</head>
+<body>
+    
+    <header>
+        <img src="excavator.png" alt="excavator">
+        <h1>Usługi budowlane</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li class="red"><a href="index.html">Strona główna</a></li>
+            <li class="orange"><a href="kontakt.html">Kontakt</a></li>
+            <li class="green"><a href="galeria.html">Galeria</a></li>
+            <li class="blue"><a href="oferta.html">Oferta</a></li>
+        </ul>
+    </nav>
+    
+    <div class="sticky-fix"></div>
+    
+    <div class="clearfix"></div>
+    
+    <article>
+        <img src="hrf.png" class="pic" alt="">
+               
+            <div id="owl" class="owl">
+                <div class="owl-slides">
+                    <i class="icon-phone"></i>18 3323240
+                </div>
+                    
+                <div class="owl-slides">
+                    <i class="icon-mobile"></i>697 203 986
+                </div>
+                    
+                <div class="owl-slides">
+                    <i class="icon-mail"></i>masiarz@onet.pl
+                </div>
+            </div>
+                
+        <img src="hrf.png" class="pic" alt="">
+        
+        <section class="icons">
+                <div class="holderOne">
+                    <div class="professional">
+                        <i class="icon-users"></i> 
+                    </div>
+                    Doświadczona<br /> kadra
+                </div>
+
+                <div class="holderTwo">
+                     <div class="speed">
+                         <i class="icon-cog-alt"></i>
+                     </div>
+                      Profesjonalizm<br /> pracy
+                </div>
+                 
+                 <div class="holderThree">
+
+                     <div class="crew">
+                         <i class="icon-gauge"></i>
+                     </div>
+                     Szybka realizacja<br /> zleceń
+                 </div>
+                 <div class="clearfix"></div> 
+        </section>
+        
+        <section class="description">
+            <div class="container960">
+                <div class="non-semantic-protector"> 
+                    <h2 class="ribbon">
+                        <strong class="ribbon-content">Ribbon</strong>
+                    </h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit sed temporibus quo provident iure officia soluta, nobis odit esse doloribus reprehenderit nihil possimus ipsa perspiciatis blanditiis maiores. Provident, maxime molestiae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem voluptas, quos quis iusto ab autem reiciendis, dignissimos est molestias laudantium non eum cumque laboriosam nulla quibusdam optio consectetur eveniet! Sequi!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit sed temporibus quo provident iure officia soluta, nobis odit esse doloribus reprehenderit nihil possimus ipsa perspiciatis blanditiis maiores. Provident, maxime molestiae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem voluptas, quos quis iusto ab autem reiciendis, dignissimos est molestias laudantium non eum cumque laboriosam nulla quibusdam optio consectetur eveniet! Sequi!</p>
+            </div>
+        </section>
+        
+    </article>
+    
+    <footer>
+    
+        <p>&copy; FeatherDesign 2015 | Usługi budowlane</p>
+        <p class="attribution"><a href="http://www.freepik.com/free-photos-vectors/construction">Construction vector designed by Freepik</a></p>
+    
+    </footer>
+    
+</body>
+</html>
