@@ -2,13 +2,13 @@
 Bunch of templates that i created while learning front-end
 
 # Templates
-* [Inn](#commandline-arguments-arrow_right)
+* [Inn](#inn-template)
 
-* [Construction services](#syntax-in-command-file-pencil2)
+* [Construction services](#construction-services-template)
 
-* [Portfolio](#example-of-full-command-file-memo)
+* [Portfolio](#portfolio-template)
 
-* [Agroturistics](#example-of-full-command-file-memo)
+* [Agroturistics](#agroturistics-template)
 
 ## "Inn" Template
 
